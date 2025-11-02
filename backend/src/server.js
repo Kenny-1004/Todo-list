@@ -9,7 +9,7 @@ const usersRouter = require('./Users/users.router.js')
 const { StatusCodes } = require('http-status-codes');
 
 const app = express();
-const PORT = process.env.PORT || 5006;
+const PORT = 5006;
 
 app.use(express.json());
 app.use(cors())
