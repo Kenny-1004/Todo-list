@@ -1,0 +1,23 @@
+POST http://localhost:5006/users/login
+Content-Type: application/json
+{
+    "username": "Kenny_1004",
+    "password": "100423_Aikee"
+}
+
+POST http://localhost:5006/users/register
+Content-Type: application/json
+{
+    "username": "Kenny_12345",
+    "password": "Sample_12345"
+}
+
+POST http://localhost:5006/users/tasks?id=69068e5087667ad9652719b8
+Content-Type: application/json
+{
+    "title": "Title_2",
+    "description": "Complete the final report for the client project",
+    "status": "todo",
+    "priority": "high",
+    "dueDate": "2025"
+}

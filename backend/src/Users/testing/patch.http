@@ -1,0 +1,7 @@
+PATCH http://localhost:5006/users/tasks?userId=6905cfb0abc4ead39ba89e47&taskId=6905e3a0cf5022c8681e4b6d
+Content-Type: application/json
+{
+    "status": "completed",
+    "priority": "high",
+    "dueDate": "2026-07-02"
+}
